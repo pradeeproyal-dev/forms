@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<body>
+<fieldset>
+<legend>REGESTRATION FORM</legend>
+<form action="/action_page.php" method="post" autocomplete="on" target="_blank">
+<label for="name" style="background-color:red;"> NAME </label><br>
+<input type="text"><br>
+<label for="email">EMAIL:</label><br>
+<input type="email"><br>
+<label for="password">PASSWORD</label>
+<input type="password" min="6" placeholder="123456"  required ><br><br>
+<label for="confirm password">CONFIRM PASSWORD</label>
+<input type="password"  requiured ><br><br>
+<label for="gender">GENDER:</label><br>
+<label for="male">MALE</label>
+<input type="radio"><br>
+<label for="female">FEMALE</label>
+<input type="radio"><br>
+<label for="others">OTHERS</label>
+<input type="radio"><br><br>
+<label for="dob">ENTER YOUR DATE OF BIRTH</label>
+<input type="date"><br><br>
+<label for ="phno">PHONE NUMBER:</label><br>
+<input type="tel"><br><br>
+<label for="address">ADDRESS</label><br>
+<textarea id="address" name="q"> </textarea><br>
+<label for ="profile">UPLOAD  YOUR PROFILE </label>
+<input type="file"><br><br>
+<label for="hobbies">SELECT YOUR HOBBIES:</label><br>
+<label for="reading">READING</label>
+<input type="checkbox"><br>
+<label for="coding">CODING</label>
+<input type="checkbox"><br>
+<label for ="sports">SPORTS</label>
+<input type="checkbox"><br>
+<label for="select">SELECT YOUR COUNTRY</label>
+<input list="country">
+<datalist id="country">
+<option value="india">/option>
+<option value="pak"></option>
+<option value="aus"></option>
+<option value="eng"></option>
+<option value="wi"></option>
+<option value="sl">h</option>
+<option value="mel"></option>
+</datalist>
+<input type="submit">
+<input type="reset">
+</form>
+</fieldset>
+</body>
+</html>
